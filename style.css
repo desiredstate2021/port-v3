@@ -1,6 +1,6 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -25,4 +25,64 @@ img {
 .nav a {
   color: white;
   text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 75px;
+}
+
+.image {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: auto;
+  border: 3px solid green;
+  width: 50%;
+
+}
+
+.projects p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.drum {
+  grid-column: 1;
+  grid-row: 1;
+  margin: auto;
+  text-align: center;
+}
+
+
+.inquizable {
+  grid-column: 2;
+  grid-row: 1;
+  margin: auto;
+  text-align: center;
+}
+
+.space {
+  grid-column: 1;
+  grid-row: 2;
+  margin: auto;
+  text-align: center;
+}
+
+.meme {
+  grid-column: 2;
+  grid-row: 2;
+  margin: auto;
+  text-align: center;
+}
+
+.drum-info {
+  font-size: 16px;
 }
