@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
 }
 
+body {
+  background-color: black;
+}
 
-img {
+.projects img {
   height: 195px;
   width: 195px;
 }
@@ -24,10 +29,12 @@ img {
 
 .nav a {
   color: white;
+  background-color: #3D0000;
   text-decoration: none;
 }
 
 .title {
+  margin-top: 50px;
   text-align: center;
   font-size: 75px;
 }
@@ -47,6 +54,8 @@ img {
   width: 50%;
 
 }
+
+
 
 .projects p {
   padding-top: 10px;
@@ -85,4 +94,39 @@ img {
 
 .drum-info {
   font-size: 16px;
+}
+
+.project-head {
+  font-size: xx-large;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.bio-head {
+  font-size: xx-large;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.bio-statment {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.web-dev-p {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3D0000;
+  color: white;
+  text-align: center;
 }
