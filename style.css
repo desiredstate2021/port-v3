@@ -12,26 +12,37 @@ body {
 }
 
 .projects img {
-  height: 195px;
-  width: 195px;
+  height: 250px;
+  width: 250px;
 }
 
-.nav {
+/* li {
+  list-style: none;
+} */
+
+.nav-links {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   background-color: #3D0000;
   height: 60px;
   padding-left: 50px;
-
-
+  list-style: none;
 }
 
-.nav a {
+.nav-item {
+  position: relative;
+}
+
+.nav-links a {
   color: white;
-  background-color: #3D0000;
-  text-decoration: none;
+}
+
+.active-nav {
+  height: 3px;
+  background-color: #FF0000;
+  border-radius: 1em;
 }
 
 .title {
@@ -249,7 +260,6 @@ body {
 
 .contact-heading {
   text-align: center;
-  margin-bottom: 25px;
 }
 
 input[type=text],
@@ -284,8 +294,8 @@ label {
 
 .container {
   border-radius: 5px;
-  margin: auto;
-  background-color: #f2f2f2;
+  margin: 25px auto 35px auto;
+  background-color: #6a6666;
   padding: 20px;
   width: 50%;
 }
@@ -296,4 +306,8 @@ h3 {
 
 h2 {
   margin-bottom: 15px;
+}
+
+form {
+  color: black;
 }

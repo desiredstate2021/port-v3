@@ -10,23 +10,27 @@
 </head>
 
 <body>
-  <nav class="nav">
-    <a href="cv.pdf">Resume/CV</a>
-    <a href="https://www.linkedin.com/in/brian-cordisco-500250205/" class="linkedin"><img alt="Linkedin" id="linkedin"
-        src="/img/icons8-linkedin.svg" /></a>
-    <a href="https://github.com/desiredstate2021" class="github"><img alt="github" id="github"
-        src="/img/icons8-github.svg" /></a>
-    <a href="https://twitter.com/BrianCordisco" class="twitter"><img alt="twitter" id="twitter"
-        src="/img/icons8-twitter.svg" /></a>
+  <nav>
+    <ul class="nav-links">
+      <div class="nav-item">
+        <li><a href="cv.pdf">Resume/CV</a></li>
+        <div class="active-nav"></div>
+      </div>
+      <div class="nav-item">
+        <li><a href="https://www.linkedin.com/in/brian-cordisco-500250205/"><img alt="Linkedin"
+              src="/img/link24.png" /></a></li>
+      </div>
+      <div class="nav-item">
+        <li><a href="https://github.com/desiredstate2021"><img alt="github" src="/img/github24.png" /></a></li>
+      </div>
+      <div class="nav-item">
+        <li> <a href="https://twitter.com/BrianCordisco"><img alt="twitter" src="/img/twitter24.png" /></a></li>
+      </div>
+    </ul>
   </nav>
 
-  <!-- <div class="title">
-    <p class="web-dev">Web <br>Developer</p>
-    <p class="web-dev-p">Brian Cordisco</p>
-  </div> -->
   <div class="image">
     <img class="logo" src="img/logo.png" alt="">
-    <!-- <img class="computer" src="img/computer.png" alt=""> -->
   </div>
 
   <div class="bio">
@@ -44,28 +48,28 @@
       <a href="https://drum-kitv2.netlify.app/">
         <h2>Drum Kit</h2>
         <img src="img/drum.png" alt="">
-        <p class="drum-info">Use your keyboard to create some music</p>
+        <p class="drum-info">Use your keyboard to create some music.</p>
       </a>
     </div>
     <div class="inquizable">
       <a href="https://www.inquizable.com/">
         <h2>Inquizable</h2>
         <img src="img/inquizable.png" alt="">
-        <p>A place to test your general Knowledge</p>
+        <p>A place to test your general Knowledge.</p>
       </a>
     </div>
     <div class="space">
       <a href="https://amazing-spacetime.netlify.app/">
         <h2>Amazing Space</h2>
         <img src="img/amazing.png" alt="">
-        <p>What if space could be a vaction spot</p>
+        <p>What if space could be a vaction spot?</p>
       </a>
     </div>
     <div class="meme">
       <a href="https://memefunv2.netlify.app/">
         <h2>Meme Generator</h2>
         <img src="img/meme.png" alt="">
-        <p>Enter text to make custom memes and save them</p>
+        <p>Enter text to make custom memes and share them.</p>
       </a>
     </div>
   </div>
@@ -106,6 +110,13 @@
       <input type="submit" value="Submit">
     </form>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Flip.min.js"
+    integrity="sha512-byzUdBXaTSrgrlWDvkyU6TBkRSUUiI3EzVIdZtrYEUx1hFnsel9QmEs3QWpKo+8N+G9eOjSxQzFWF1PLq0+WVw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="app.js"></script>
   <footer class="footer">
     <p style="text-align: center">
       Copyright &copy; 2021-
