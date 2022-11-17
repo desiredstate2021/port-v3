@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
+  text-decoration: none;
 }
 
 body {
@@ -39,20 +40,29 @@ body {
   font-size: 75px;
 }
 
-.image {
-  width: fit-content;
+.logo {
   margin-left: auto;
   margin-right: auto;
 }
+
+.image img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: max-content;
+
+}
+
+.computer {}
 
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin: auto;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   width: 50%;
-
+  margin-bottom: 25px;
 }
 
 
@@ -90,6 +100,7 @@ body {
   grid-row: 2;
   margin: auto;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .drum-info {
@@ -97,7 +108,7 @@ body {
 }
 
 .project-head {
-  font-size: xx-large;
+  font-size: x-large;
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
@@ -121,6 +132,111 @@ body {
   margin-bottom: 50px;
 }
 
+.skills {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.skills-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.skills-heading {
+  display: flex;
+  justify-content: center;
+  padding-bottom: .6rem;
+  font-size: x-large;
+}
+
+.skill-1 {
+  border-style: solid;
+  border-color: rgb(30, 27, 192);
+  border-radius: .5rem;
+  background-color: rgb(30, 27, 192);
+}
+
+.skill-2 {
+  border-style: solid;
+  border-color: rgb(226, 178, 18);
+  border-radius: .5rem;
+  background-color: rgb(226, 178, 18);
+}
+
+.skill-3 {
+  border-style: solid;
+  border-color: rgb(40, 127, 63);
+  border-radius: .5rem;
+  background-color: rgb(40, 127, 63);
+}
+
+.skill-4 {
+  border-style: solid;
+  border-color: rgb(8, 137, 142);
+  border-radius: .5rem;
+  background-color: rgb(8, 137, 142);
+}
+
+.skill-5 {
+  border-style: solid;
+  border-color: rgb(35, 15, 151);
+  border-radius: .5rem;
+  background-color: rgb(35, 15, 151);
+}
+
+.skill-6 {
+  border-style: solid;
+  border-color: rgb(176, 203, 42);
+  border-radius: .5rem;
+  background-color: rgb(176, 203, 42);
+}
+
+.skill-7 {
+  border-style: solid;
+  border-color: rgb(213, 144, 32);
+  border-radius: .5rem;
+  background-color: rgb(213, 144, 32);
+}
+
+.skill-8 {
+  border-style: solid;
+  border-color: rgb(225, 119, 27);
+  border-radius: .5rem;
+  background-color: rgb(225, 119, 27);
+}
+
+.skill-9 {
+  border-style: solid;
+  border-color: rgb(17, 209, 59);
+  border-radius: .5rem;
+  background-color: rgb(17, 209, 59);
+}
+
+.skill-10 {
+  border-style: solid;
+  border-color: rgb(49, 42, 180);
+  border-radius: .5rem;
+  background-color: rgb(49, 42, 180);
+}
+
+.skill-11 {
+  border-style: solid;
+  border-color: rgb(42, 180, 104);
+  border-radius: .5rem;
+  background-color: rgb(42, 180, 104);
+}
+
+.skill-12 {
+  border-style: solid;
+  border-color: rgb(193, 206, 75);
+  border-radius: .5rem;
+  background-color: rgb(193, 206, 75);
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -129,4 +245,55 @@ body {
   background-color: #3D0000;
   color: white;
   text-align: center;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+label {
+  color: black;
+}
+
+.container {
+  border-radius: 5px;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+h2 {
+  margin-bottom: 15px;
 }

@@ -12,52 +12,99 @@
 <body>
   <nav class="nav">
     <a href="cv.pdf">Resume/CV</a>
-    <a href="https://github.com/desiredstate2021">GitHub</a>
-    <a href="https://www.linkedin.com/in/brian-cordisco-500250205/">Linkedin</a>
+    <a href="https://www.linkedin.com/in/brian-cordisco-500250205/" class="linkedin"><img alt="Linkedin" id="linkedin"
+        src="/img/icons8-linkedin.svg" /></a>
+    <a href="https://github.com/desiredstate2021" class="github"><img alt="github" id="github"
+        src="/img/icons8-github.svg" /></a>
+    <a href="https://twitter.com/BrianCordisco" class="twitter"><img alt="twitter" id="twitter"
+        src="/img/icons8-twitter.svg" /></a>
   </nav>
 
-  <div class="title">
+  <!-- <div class="title">
     <p class="web-dev">Web <br>Developer</p>
     <p class="web-dev-p">Brian Cordisco</p>
-  </div>
+  </div> -->
   <div class="image">
-    <img class="desk" src="img/computer.png" alt="">
+    <img class="logo" src="img/logo.png" alt="">
+    <!-- <img class="computer" src="img/computer.png" alt=""> -->
   </div>
 
   <div class="bio">
-    <p class="bio-head">Biography</p>
-    <p class="bio-statment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi exercitationem iure
-      minima quibusdam explicabo culpa rem suscipit fugit illo, tempore voluptates magnam beatae molestiae quae officia
-      nostrum sit inventore in soluta cum nemo iusto, velit esse. Maxime earum perspiciatis maiores explicabo
-      reprehenderit nam, natus modi aut minus eius quibusdam similique est dolores aliquid necessitatibus tempora hic
-      accusamus beatae dolorum ex quos quo deleniti! Rerum officiis neque nemo alias voluptatibus tempora saepe illum!
-      Exercitationem porro doloribus molestiae quis consequuntur quisquam nihil explicabo? Similique, itaque. Sapiente
-      rerum officia distinctio doloremque, facere nam rem harum et aut illo maxime impedit voluptates consequuntur.</p>
+    <h3 class="bio-head">Biography</h3>
+    <p class="bio-statment">A web developer who is passionate about his work. Coding skills in
+      JavaScript, HTML, and CSS,
+      and has experience working with the React Framework. I also has an associates degree in information technology.
+    </p>
   </div>
   <div class="project-head">
-    <p>Projects</p>
+    <h3>Projects</h3>
   </div>
   <div class="projects">
     <div class="drum">
-      <p>Drum Kit</p>
-      <img src="img/drum.png" alt="">
-      <p class="drum-info">Use your keyboard to create some music</p>
+      <a href="https://drum-kitv2.netlify.app/">
+        <h2>Drum Kit</h2>
+        <img src="img/drum.png" alt="">
+        <p class="drum-info">Use your keyboard to create some music</p>
+      </a>
     </div>
     <div class="inquizable">
-      <p>Inquizable</p>
-      <img src="img/inquizable.png" alt="">
-      <p>A place to test your general Knowledge</p>
+      <a href="https://www.inquizable.com/">
+        <h2>Inquizable</h2>
+        <img src="img/inquizable.png" alt="">
+        <p>A place to test your general Knowledge</p>
+      </a>
     </div>
     <div class="space">
-      <p>Amazing Space</p>
-      <img src="img/amazing.png" alt="">
-      <p>What if space could be a vaction spot</p>
+      <a href="https://amazing-spacetime.netlify.app/">
+        <h2>Amazing Space</h2>
+        <img src="img/amazing.png" alt="">
+        <p>What if space could be a vaction spot</p>
+      </a>
     </div>
     <div class="meme">
-      <p>Meme Generator</p>
-      <img src="img/meme.png" alt="">
-      <p>Enter text to make custom memes and save them</p>
+      <a href="https://memefunv2.netlify.app/">
+        <h2>Meme Generator</h2>
+        <img src="img/meme.png" alt="">
+        <p>Enter text to make custom memes and save them</p>
+      </a>
     </div>
+  </div>
+
+  <div class="skills-heading">
+    <h3>Skills</h3>
+  </div>
+  <div class="skills">
+    <ul class="skills-ul">
+      <li class="skill-1">JAVASCRIPT</li>
+      <li class="skill-2">REACT</li>
+      <li class="skill-3">HTML5</li>
+      <li class="skill-4">CSS</li>
+      <li class="skill-5">NODE.JS</li>
+      <li class="skill-6">SQL</li>
+      <li class="skill-7">UX/UI</li>
+      <li class="skill-8">SEO</li>
+      <li class="skill-9">SCRUM</li>
+      <li class="skill-10">MS PROJECT</li>
+      <li class="skill-11">Git</li>
+      <li class="skill-12">Bootstrap</liclass>
+    </ul>
+  </div>
+
+  <h3 class="contact-heading">Contact Form</h3>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
   </div>
   <footer class="footer">
     <p style="text-align: center">
