@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+img {
+  height: 195px;
+  width: 195px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: #3D0000;
+  height: 60px;
+  padding-left: 50px;
+
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
