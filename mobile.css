@@ -109,8 +109,12 @@
 
   .bio-statement {
     text-align: center;
-    width: 50%;
+    width: 100%;
+  }
+
+  .image img {
     margin: auto;
+    width: 100%;
   }
 
   .footer {
@@ -143,7 +147,7 @@
     margin: auto;
     width: 90%;
     height: max-content;
-
+    content: url(/img/logo2.png);
   }
 
   .logo {
