@@ -1,4 +1,4 @@
-@media only screen and (max-width: 720px) and (min-width: 420px) {
+@media only screen and (max-width: 810px) and (min-width: 320px) {
   * {
     margin: 0;
     padding: 0;
@@ -21,10 +21,15 @@
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    gap: 15px;
+    gap: 10px;
     background-color: #3D0000;
     height: 60px;
     list-style: none;
+  }
+
+  .nav-links-two {
+    display: flex;
+
   }
 
   .nav-item {
@@ -176,8 +181,64 @@
     text-align: center;
   }
 
-  /* .box {
+  .box {
     display: flex;
     flex-direction: column;
-  } */
+    gap: 25px;
+    margin: auto;
+  }
+
+  .a-box {
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    width: 300px;
+    text-align: center;
+  }
+
+  .img-container {
+    height: 230px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+  }
+
+  .img-container img {
+    height: 200px;
+  }
+
+  .inner-skew {
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    font-size: 0px;
+    margin: 30px 0px 0px 0px;
+    height: 250px;
+    width: 200px;
+  }
+
+  .text-container {
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #4e0606;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+  }
+
+  .text-container h3 {
+    margin: 20px 0px 10px 0px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .box {
+    display: flex;
+    width: 60%;
+    margin: auto;
+  }
+
+  .box a {
+    margin: auto;
+  }
 }

@@ -10,14 +10,20 @@ body {
   background-color: black;
 }
 
+
 .projects img {
   height: 250px;
   width: 250px;
 }
 
 nav {
-  /* position: fixed; */
   width: 100%;
+}
+
+.nav-links-two {
+  display: flex;
+  gap: 15px;
+
 }
 
 .nav-links {
@@ -360,7 +366,8 @@ section {
 
 .a-box {
   display: inline-block;
-  width: 240px;
+  margin: 0 auto;
+  width: 300px;
   text-align: center;
 }
 
@@ -373,7 +380,7 @@ section {
 }
 
 .img-container img {
-  height: 250px;
+  height: 200px;
 }
 
 .inner-skew {
@@ -382,13 +389,11 @@ section {
   padding: 0px;
   font-size: 0px;
   margin: 30px 0px 0px 0px;
-  background: #c8c2c2;
   height: 250px;
   width: 200px;
 }
 
 .text-container {
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   padding: 120px 20px 20px 20px;
   border-radius: 20px;
   background: #4e0606;
@@ -407,8 +412,8 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 50%;
-  margin: 0 auto;
+  width: 60%;
+  margin: auto;
 }
 
 .box a {
