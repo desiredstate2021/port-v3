@@ -68,6 +68,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin: auto;
+  gap: 50px 100px;
   color: white;
   width: fit-content;
   border-radius: 25px;
@@ -123,7 +124,7 @@ nav {
 .bio-statement {
   text-align: center;
   width: 50%;
-  margin: auto;
+  margin: 25px auto;
 }
 
 .web-dev-p {
@@ -355,4 +356,61 @@ section {
 .card.is-inactive {
   grid-column: span 2;
   grid-row: 2;
+}
+
+.a-box {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+}
+
+.img-container {
+  height: 230px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  display: inline-block;
+}
+
+.img-container img {
+  height: 250px;
+}
+
+.inner-skew {
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0px;
+  font-size: 0px;
+  margin: 30px 0px 0px 0px;
+  background: #c8c2c2;
+  height: 250px;
+  width: 200px;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #4e0606;
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.text-container h3 {
+  margin: 20px 0px 10px 0px;
+  color: white;
+  font-size: 18px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.box a {
+  margin: auto;
 }

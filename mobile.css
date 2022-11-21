@@ -76,11 +76,8 @@
   .projects {
     display: block;
     color: white;
-    width: 50%;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: rgba(61, 0, 0, 0.8)
+    width: 60%;
+    margin: auto;
   }
 
   .projects h2 {
@@ -95,8 +92,6 @@
 
   .project-head {
     font-size: medium;
-    padding-top: 25px;
-    padding-bottom: 25px;
     text-align: center;
   }
 
@@ -180,4 +175,9 @@
     color: white;
     text-align: center;
   }
+
+  /* .box {
+    display: flex;
+    flex-direction: column;
+  } */
 }
