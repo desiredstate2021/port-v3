@@ -122,7 +122,7 @@
   .image img {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 70%;
     height: max-content;
     content: url(/img/logo2.png);
     margin-top: 50px;
