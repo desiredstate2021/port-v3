@@ -1,4 +1,4 @@
-@media only screen and (max-width: 810px) and (min-width: 320px) {
+@media only screen and (max-width: 720px) and (min-width: 3px) {
   * {
     margin: 0;
     padding: 0;
@@ -19,9 +19,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    gap: 7px;
     background-color: #3D0000;
     height: 60px;
     list-style: none;
@@ -120,11 +120,9 @@
 
 
   .image img {
-    display: block;
     margin: auto;
-    width: 90%;
-    height: max-content;
-    content: url(/img/logo2.png);
+    width: 75%;
+    height: fit-content;
     margin-top: 50px;
     margin-bottom: 50px;
   }
