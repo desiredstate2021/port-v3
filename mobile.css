@@ -121,9 +121,8 @@
 
   .image img {
     margin: auto;
-    width: 90%;
-    height: max-content;
-    content: url(/img/logo2.png);
+    width: 75%;
+    height: fit-content;
     margin-top: 50px;
     margin-bottom: 50px;
   }
