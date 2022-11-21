@@ -78,23 +78,6 @@
     grid-row: 2;
   }
 
-  .projects {
-    display: block;
-    color: white;
-    width: 60%;
-    margin: auto;
-  }
-
-  .projects h2 {
-    text-align: center;
-  }
-
-  .projects img {
-    height: 175px;
-    width: 175px;
-  }
-
-
   .project-head {
     font-size: medium;
     text-align: center;
@@ -134,12 +117,6 @@
     padding: 20px;
     width: 75%;
   }
-
-  .projects img {
-    height: 225px;
-    width: 225px;
-  }
-
 
 
   .image img {
@@ -185,7 +162,6 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin: auto;
   }
 
   .a-box {
