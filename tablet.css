@@ -1,4 +1,4 @@
-@media only screen and (max-width: 720px) and (min-width: 380px) {
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
   * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
 
   section {
     display: grid;
-    grid-template-columns: repeat(6, 53px);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: .5rem;
     margin: 2rem 2rem;
   }
@@ -160,12 +160,6 @@
     text-align: center;
   }
 
-  .box {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-  }
-
   .a-box {
     display: inline-block;
     margin: 0 auto 0 auto;
@@ -211,8 +205,11 @@
   }
 
   .box {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 60%;
+    gap: 25px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 25px;
@@ -220,5 +217,13 @@
 
   .box a {
     margin: auto;
+  }
+
+  .a-box {
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
   }
 }
