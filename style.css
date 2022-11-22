@@ -63,9 +63,10 @@ nav {
   margin-right: auto;
 }
 
-.image img {
-  display: block;
-  width: 75%;
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
 
 .project-head {
