@@ -10,17 +10,21 @@
 
   section {
     display: grid;
-    grid-template-columns: repeat(6, 55px);
+    grid-template-columns: repeat(6, 48px);
     grid-gap: .5rem;
     margin: 2rem 2rem;
+  }
+
+  nav {
+    width: 100%;
   }
 
   .nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 70px;
+    padding-right: 70px;
     gap: 7px;
     background-color: #3D0000;
     height: 60px;
