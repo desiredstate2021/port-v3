@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1280px) and (min-width: 800px) {
+@media only screen and (max-width: 1500px) and (min-width: 720px) {
   * {
     margin: 0;
     padding: 0;
@@ -15,9 +15,6 @@
     margin: 2rem 2rem;
   }
 
-  nav {
-    width: 100%;
-  }
 
   .nav-links {
     display: flex;
@@ -120,11 +117,6 @@
     background-color: #6a6666;
     padding: 20px;
     width: 75%;
-  }
-
-
-  .logo {
-    margin: 70px;
   }
 
   .bio-statement {
