@@ -10,7 +10,7 @@
 
   section {
     display: grid;
-    grid-template-columns: repeat(6, 48px);
+    grid-template-columns: repeat(6, 50px);
     grid-gap: .5rem;
     margin: 2rem 2rem;
   }
